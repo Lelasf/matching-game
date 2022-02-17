@@ -1,0 +1,10 @@
+.space {
+  width: 50px;
+  height: 20px;
+  border: 2px solid #fff;
+  inline-size: 1px solid #fff;
+}
+
+.space:nth-child(1) {
+  background: green;
+}
