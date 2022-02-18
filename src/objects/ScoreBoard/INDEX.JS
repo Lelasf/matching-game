@@ -1,14 +1,14 @@
 import PlayerName from '../../components/PlayerName'
 import PlayerScore from '../../components/PlayerScore'
-import ArrowDown from '../../components/ArrowDown'
 import VsPlayer from '../../components/VsPlayer'
+import ArrowDown from '../../components/ArrowDown'
 import './style.css'
 
 function ScoreBoard() {
   return /*html*/ `
     <header class='score-board'>
-    ${ArrowDown()}
     ${PlayerName('Player1')}
+    ${ArrowDown()}
     ${PlayerScore(2)}
     ${VsPlayer()}
     ${PlayerScore(3)}
