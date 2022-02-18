@@ -1,10 +1,11 @@
 import './style.css'
 
-function ArrowDown() {
+function ArrowDown(currentPlayer = 1) {
   return /*html*/ `
-    <div class='arrow-down'>
-      <img src='src/images/IconArrowDown.svg' alt='Seta'>
-    </div>
+      <img class="arrow-down" 
+        data-currentPlayer = '${currentPlayer}'
+        src='src/images/IconArrowDown.svg' 
+        alt='Ícone de uma seta para baixo'>
   `
 }
 
