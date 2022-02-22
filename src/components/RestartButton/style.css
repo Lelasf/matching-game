@@ -1,0 +1,13 @@
+.restart-button {
+  background: var(--color-fiery-rose);
+  color: var(--color-floral-white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 58px;
+  margin: 0 20px;
+
+  border: 2px solid var(--color-floral-white);
+}

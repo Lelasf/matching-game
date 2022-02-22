@@ -1,0 +1,30 @@
+.modal-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  background: rgba(4, 9, 17, 0.8);
+
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-wrapper .modal {
+  background: var(--color-pomb-and-power);
+  width: 280px;
+  height: 216px;
+  margin: auto;
+  padding-top: 24px;
+  border: 2px solid var(--color-floral-white);
+
+  color: var(--color-floral-white);
+  font-size: 18px;
+  text-align: center;
+}
+
+.modal-wrapper .modal p {
+  margin-bottom: 10px;
+}

@@ -5,13 +5,16 @@ import ArrowDown from '../../components/ArrowDown'
 import './style.css'
 
 function ScoreBoard() {
+  let score1 = 0
+  let score2 = 0
+
   return /*html*/ `
     <header class='score-board'>
     ${ArrowDown(1)}
     ${PlayerName('Player1')}
-    ${PlayerScore(2)}
+    ${PlayerScore(score1)}
     ${VsPlayer()}
-    ${PlayerScore(3)}
+    ${PlayerScore(score2)}
     ${PlayerName('Player2')}
     </header>
   `

@@ -6,7 +6,7 @@ function CardFrontBack(icon, altIcon) {
   window.cardFrontBack.handleClick = (event) => {
     const $origin = event.target
     const $cardFrontBack = $origin.closest('.card-front-back')
-
+    console.log($cardFrontBack)
     $cardFrontBack.classList.toggle('active')
   }
 

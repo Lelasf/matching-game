@@ -1,0 +1,11 @@
+.winner-message {
+  color: var(--color-mantis);
+  font-size: 25px;
+}
+
+.player-name,
+.winner-message {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
